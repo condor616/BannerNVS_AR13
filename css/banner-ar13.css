@@ -1,0 +1,81 @@
+html, body{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	color:#ffffff;
+}
+
+a, a:visited, a:hover, a:active {
+    color: #ffffff;
+}
+
+
+
+div.nvs_banner {
+    height: 347px;
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+    width: 971px;
+	/*background-color:#88756b;*/
+	background-color: #a44734
+}
+
+
+div.nvs_banner div.media-content{
+	position:absolute;
+	left: 30px;
+    margin: 5px;
+    max-height: 340px;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    width: 500px;
+	box-shadow: 1px 1px 13px 1px #000000;
+}
+
+div.nvs_banner div.text-content{
+	left: 560px;
+	margin: 10px 5px;
+    max-height: 310px;
+    overflow: hidden;
+    position: absolute;
+    top: 18px;
+    width: 390px;
+	height:auto; 
+	/*color: #ffffff;*/
+	overflow:hidden;
+}
+
+
+div.nvs_banner div.text-content div.title{
+	font-size:22px;
+	font-weight:700;
+	margin-bottom:10px;
+}
+
+div.nvs_banner div.text-content div.description{
+	font-size:16px;
+	margin-bottom: 20px;
+}
+
+div.nvs_banner div.text-content div.links a{
+	background: url("../images/_common/icons/url-icon-sprite.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+	display: block;
+    height: auto;
+    margin-bottom: 8px;
+    padding-left: 22px;
+}
+
+div.nvs_banner div.text-content div.links a:hover{
+	text-decoration:underline;
+}
+
+div.nvs_banner div.text-content div.links a.internal-banner-link{
+	background-position: 0 -14px;
+}
+
+div.nvs_banner div.text-content div.links a.pdf-banner-link{
+	background-position: 0 -31px;
+}
+
+
+
