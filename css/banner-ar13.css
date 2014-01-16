@@ -60,7 +60,7 @@ div.nvs_banner div.text-content div.description{
 div.nvs_banner div.text-content div.links a{
 	background: url("../images/_common/icons/url-icon-sprite.png") no-repeat scroll left top rgba(0, 0, 0, 0);
 	display: block;
-    height: auto;
+    height: 16px;
     margin-bottom: 8px;
     padding-left: 22px;
 }
@@ -70,11 +70,11 @@ div.nvs_banner div.text-content div.links a:hover{
 }
 
 div.nvs_banner div.text-content div.links a.internal-banner-link{
-	background-position: 0 -14px;
+	background-position: 0 -16px;
 }
 
 div.nvs_banner div.text-content div.links a.pdf-banner-link{
-	background-position: 0 -31px;
+	background-position: 0 -32px;
 }
 
 
